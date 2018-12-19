@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "cbeb6579-336e-42cd-9783-c3af81bf6cb4",
+            "Value": {
+                "id": "828852c1-0889-4c6b-945b-b07155e49b9b",
+                "resourcePath": "objects\\obj_hud\\obj_hud.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "a3d0197a-a2e6-482d-947a-9ec160d3c884",
