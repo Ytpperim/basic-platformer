@@ -6,6 +6,15 @@
 /// @DnDArgument : "value" "other.y"
 if(y +10 < other.y)
 {
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 7ABA631C
+	/// @DnDParent : 0728CFE6
+	/// @DnDArgument : "score" "100"
+	/// @DnDArgument : "score_relative" "1"
+	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+	__dnd_score += real(100);
+
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 2432FCDB
